@@ -9,6 +9,6 @@
     <Import_RootNamespace>AppVersionPlugin</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IAppVersion.cs" />
   </ItemGroup>
 </Project>

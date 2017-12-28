@@ -5,10 +5,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{60C3ABCE-FC60-4A33-BDB1-CC81CD894099}</ProjectGuid>
-    <Description>AppVersionPlugin</Description>
+    <Description>To get app version in Xamarin.iOS, Xamarin.Android and Xamarin.Forms apps.</Description>
     <PackageId>AppVersionPlugin</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
-    <Authors>Tom</Authors>
+    <Authors>Tom Hao</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <OutputType>Exe</OutputType>

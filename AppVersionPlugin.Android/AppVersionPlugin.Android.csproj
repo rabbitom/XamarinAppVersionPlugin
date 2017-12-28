@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppVersion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
