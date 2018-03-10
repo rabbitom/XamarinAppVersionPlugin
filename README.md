@@ -5,7 +5,7 @@ A NuGet plugin for Xamarin.iOS, Xamarin.Android and Xamarin.Forms projects to ge
 1. Add package to your PCL and platform specific projects, see [how](docs/how-to-compile-a-nuget-plugin-and-add-it.md);
 1. In your Xamarin.Android project(if any), initialize AppVersion in MainActivity.cs:
     ```
-    using AppVersionPlugin;
+    using Net.Erabbit.Xam.Plugin.AppVersion;
     
     public class MainAcitivity
     {
@@ -14,7 +14,7 @@ A NuGet plugin for Xamarin.iOS, Xamarin.Android and Xamarin.Forms projects to ge
     ```
 1. In your cross-platform project, new an instance of AppVersion and get the VersionName and VersionCode property:
     ```
-    using AppVersionPlugin;
+    using Net.Erabbit.Xam.Plugin.AppVersion;
 
     AppVersion version = new AppVersion();
     versionLabel.Text = version.VersionName + " build " + version.VersionCode;
