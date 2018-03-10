@@ -1,5 +1,5 @@
 ﻿using System;
-namespace AppVersionPlugin
+namespace Net.Erabbit.Xam.Plugin.AppVersion
 {
     public interface IAppVersion
     {

@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{60C3ABCE-FC60-4A33-BDB1-CC81CD894099}</ProjectGuid>
     <Description>To get app version in Xamarin.iOS, Xamarin.Android and Xamarin.Forms apps.</Description>
-    <PackageId>AppVersionPlugin</PackageId>
+    <PackageId>Xam.Plugin.AppVersion</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Tom Hao</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>

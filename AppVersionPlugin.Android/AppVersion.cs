@@ -1,7 +1,7 @@
 ﻿using System;
 using Android.Content;
 
-namespace AppVersionPlugin
+namespace Net.Erabbit.Xam.Plugin.AppVersion
 {
     public class AppVersion : IAppVersion
     {
